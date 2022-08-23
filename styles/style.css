@@ -1,0 +1,130 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 7em;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-size: large;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "elevon", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h4 {
+  font-family: "elevon", sans-serif;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding-left: 2rem;
+  border-radius: 5px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  margin-bottom: var(--spacing);
+}
+
+section {
+  border-radius: 5px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #ff0000, 
+      #00000000
+    ) 1 100%;
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  background-color: rgba(103, 107, 249, 0.3);
+  grid-column: 2 / span 9;
+  margin-bottom: var(--spacing);
+}
+
+blockquote p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-left: 1em;
+  background-color: rgba(6, 6, 234, 0.5);
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+a:link {
+  color: #fff;   
+}
+
+a:visited {
+  color: rgb(29, 144, 245);  
+  background-color: rgba(6, 253, 253, 0.5);   
+}
+
+a:hover {
+  color: rgb(29, 245, 54);     
+  background-color: rgba(247, 251, 247, 0.5);
+}
+
+a:active {
+  color: #000;  
+  background-color: hotpink;
+}
+
+.left {
+  grid-column: 6 / 12;
+}
